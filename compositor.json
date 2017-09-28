@@ -1,0 +1,80 @@
+{
+  "name": "karlparton/heroku-accounts",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/karlparton/heroku-accounts",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "heroku-accounts",
+      "subhead": "Multiple account management for Heroku",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "heroku-accounts: Multiple account management for Heroku",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "karlparton",
+          "repo": "heroku-accounts"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Deprecated</h1>\n<p>This project is deprecated and is no longer being maintained.</p>\n<p>Please check out my current project <a href=\"https://convox.com\">Convox</a> for all of your deployment needs!</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/karlparton/heroku-accounts",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/karlparton",
+          "text": "karlparton"
+        }
+      ]
+    }
+  ]
+}
